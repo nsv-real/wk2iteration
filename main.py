@@ -7,6 +7,7 @@ def skip_intergers(*args):
 
     logger.info("Starting iteration")
     logger.info(f"List of args is {len(args)} element(s) long.")
+    logger.info(f"Printing args {*args}")
 
     for i in args:
         if isinstance(i, int):
